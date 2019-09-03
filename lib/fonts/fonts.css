@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'segoe ui regular';
+  src: url('SEGOEUI.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'segoe ui bold';
+  src: url('SEGOEUIB.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'segoe ui light';
+  src: url('SEGOEUIL.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'myriad pro regular';
+  src: url('Myriad Pro Regular.ttf')  format('truetype');
+}
