@@ -17,7 +17,7 @@
 <body>
 	<div class="main-contain" id="home">
 		<div class="section menu-section">
-			<div class="header container-fluid bg-theme-a d-inline-flex">
+			<div class="header container-fluid bg-theme-a d-md-inline-flex ">
 				<div class="contact">
 					<img src="lib/images/phone-icon.png" class="icon contact-icon">
 					<span class="text contact-text">CALL US +639094812861</span>
@@ -102,12 +102,15 @@
 			</div>
 			<div class="menu-holder">
 				<div class="nav-fixed unscrolling">
-					<div class="nav-content d-flex section-wrap">
+					<div class="navbar navbar-expand-lg nav-content navbar-light bg-light-mb section-wrap">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>						
 						<div class="logo">
 							<div class="holder"><h1 class="text fbold">FOLA<span class="flight tech">TECH</span></h1></div>
 						</div>
-						<div class="main-navigation w-100 align-self-end">
-							<ul class="nav justify-content-end">
+						<div class="collapse navbar-collapse main-navigation w-100 align-self-end" id="navbarSupportedContent">
+							<ul class="nav navbar-nav ml-auto">
 								<li class="nav-item">
 									<a class="nav-link active" href="#!">HOME</a>
 								</li>
@@ -139,37 +142,37 @@
 					<div class="col-12">
 						<form class="form-enroll">
 							<div class="form-row">
-								<div class="form-group col-3 firstname">
+								<div class="form-group col-md-3 firstname">
 									<label for="firstname">Firstname</label>
 									<input type="text" class="form-control" id="firstname">
 								</div>
-								<div class="form-group col-3 middlename">
+								<div class="form-group col-md-3 middlename">
 									<label for="middlename">Middlename</label>
 									<input type="text" class="form-control" id="middlename">
 								</div>
-								<div class="form-group col-3 lastname">
+								<div class="form-group col-md-3 lastname">
 									<label for="lastname">Lastname</label>
 									<input type="text" class="form-control" id="lastname">
 								</div>
-								<div class="form-group col-3 suffix">
+								<div class="form-group col-md-3 suffix">
 									<label for="suffix">Suffix</label>
 									<input type="text" class="form-control" id="suffix">
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-3 contactno">
+								<div class="form-group col-md-3 contactno">
 									<label for="contactno">Contact no.</label>
 									<input type="text" class="form-control" id="contactno">
 								</div>
-								<div class="form-group col-3 email">
+								<div class="form-group col-md-3 email">
 									<label for="email">Email Address</label>
 									<input type="email" class="form-control" id="email">
 								</div>
-								<div class="form-group col-3 birthday">
+								<div class="form-group col-md-3 birthday">
 									<label for="birthday">Birthday</label>
 									<input class="form-control" type="date" id="birthday">
 								</div>
-								<div class="form-group col-3 gender">
+								<div class="form-group col-md-3 gender">
 									<label for="gender">Gender</label>
 									<!-- <input type="text" class="form-control" id="gender"> -->
 									<select class="form-control select select-gender" id="gender">
@@ -186,7 +189,7 @@
 										<option value="" disabled selected>PLEASE SELECT COURSE</option>
 									</select>
 								</div>
-								<div class="form-group col-6 d-inline-flex align-items-end">
+								<div class="form-group col-md-6 d-inline-flex align-items-end">
 									<div class="btn button enroll-now bg-theme-b d-inline-flex justify-content-center">
 										<img src="lib/images/hat-icon.png" class="icon">
 										<h1 class="text fbold">ENROLL NOW</h1>
@@ -231,7 +234,7 @@
 				</div>
 			</div>
 			<div class="row courses">
-				<div class="col-6">
+				<div class="col-lg-6">
 					<div class="box-holder course">
 						<div class="box-tag bg-theme-b d-inline-flex">
 							<h1 class="text">COURSE</h1>
@@ -250,7 +253,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6">
 					<div class="box-holder course">
 						<div class="box-tag bg-theme-b d-inline-flex">
 							<h1 class="text">COURSE</h1>
@@ -296,9 +299,6 @@
 										Every minute should be enjoyed and savored.
 									</p>
 								</div>
-								<div class="img person-img">
-									<img src="lib/images/person1.png" class="img">
-								</div>
 							</div>
 						</div>
 						<div class="holder">
@@ -314,9 +314,6 @@
 										to spend, whether it's at work or with your family. 
 										Every minute should be enjoyed and savored.
 									</p>
-								</div>
-								<div class="img person-img">
-									<img src="lib/images/person1.png" class="img">
 								</div>
 							</div>
 						</div>
